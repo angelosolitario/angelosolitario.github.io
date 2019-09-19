@@ -13,11 +13,8 @@ img{
     border-radius: 50%
 }
 
-span{
-    display: block;
-    color: lightgray;
-    position: absolute;
-    left: 115px;
+#ch{
+    color: gray;
 }
 
 .desc{
