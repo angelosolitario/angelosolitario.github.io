@@ -1,3 +1,0 @@
-## Welcome
-
-# angelosolitario.github.io
