@@ -1,5 +1,5 @@
 import React from "react";
-import "../static/css/about.css";
+import "../static/styling/about.css";
 import profilepicture from "../static/img/profilepicture.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -22,7 +22,12 @@ const About = () => {
             {
                 name: "Python",
                 score: 4.5
-            }
+            },
+            {
+                name: "C/C++",
+                score: 4.5
+            },
+            
         ],
         technologies: [
             {
@@ -89,13 +94,13 @@ const About = () => {
             </div>
 
             <div className="row">
-                <div className="col">
+                <div className="col education">
                     <h1>Education</h1>
                     {/* This will be the education part */}
-                    <p>San Francisco State University</p>
+                    <h5>San Francisco State University</h5>
                     <p>Bachelor's of Science in Computer Science</p>
 
-                    <p>Skyline College</p>
+                    <h5>Skyline College</h5>
                     <p>Associate's of Science in Mathematics</p>
                     <p>Associate's of Science in Natural Sciences</p>
                 </div>
@@ -109,6 +114,7 @@ const About = () => {
                             <li>{lang.name}</li>
                         ))}
                     </ul>
+                    <br />
                     <p>Technologies</p>
                     <ul className="skills">
                         {skills.technologies.map(tech => (

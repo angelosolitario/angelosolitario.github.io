@@ -1,0 +1,2 @@
+[] = Add star rating for skills
+[] = add dynamic background
