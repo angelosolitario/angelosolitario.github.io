@@ -6,11 +6,48 @@
     object-position: center right;
 }
 
+.container .about-me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .about-me p{
+    text-align: center;
+    width: 60%;
+}
 .profile-header{
     margin-bottom: 50px;
 }
 
+/* for general tabbing */
+.tab{
+    display:inline-block; 
+    font-weight: 500;
+    margin-left: 40px; 
+}
+
+
+/* education part to line up the text */
+.education{
+    text-align: left;
+}
+.education h1, .skills h1{
+    text-align: center;
+}
+
+.date{
+    font-weight: 200;
+    font-style: italic;
+}
 
 .skills{
+    text-align: left;
+}
+
+.skills ul li{
     list-style: none;
+}
+
+.stars{
+    align-items: center;
 }
