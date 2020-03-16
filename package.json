@@ -1,8 +1,8 @@
 {
-  "name": "personal-page",
+  "name": "portfoliio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://angelosolitario.github.io/personal-page/",
+  "homepage": "https://angelosolitario.github.io/portfolio/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.26",
     "@fortawesome/free-brands-svg-icons": "^5.12.0",
