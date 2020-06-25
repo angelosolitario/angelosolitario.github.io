@@ -1,0 +1,33 @@
+.profile-picture {
+  width: 250px;
+  height: 250px;
+  border-radius: 30%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center right;
+     object-position: center right;
+}
+
+.container {
+  overflow: hidden;
+  background-color: #f7f9fc;
+  height: 100%;
+}
+
+.container .about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .about-me p {
+  text-align: center;
+  width: 60%;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,5 +1,5 @@
 import React from "react";
-import "../static/styling/about.css";
+import "../static/styling/main.css";
 import profilepicture from "../static/img/profilepicture.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,10 +8,11 @@ import {
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import 'react-tabs/style/react-tabs.css';
+import 'react-tabs/style/react-tabs.scss';
 
 import About from "./About";
 import Resume from "./Resume"
+import Projects from "./Projects"
 
 const Main = () => {
     const [value, setValue] = React.useState(0);
@@ -22,7 +23,6 @@ const Main = () => {
 
     return (
         <div className="container">
-            <div className="profile-header">
                 <a href="https://angelosolitario.github.io/portfolio/">
                     <img
                         className="profile-picture"
@@ -71,7 +71,7 @@ const Main = () => {
                     </TabPanel>
 
                     <TabPanel>
-                        <p>Hello from Projects</p>
+                        <Projects />
                     </TabPanel>
 
                     <TabPanel>
@@ -84,7 +84,6 @@ const Main = () => {
         <div>
           <About />
         </div> */}
-            </div>
         </div>
     );
 };

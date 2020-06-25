@@ -1,0 +1,25 @@
+.cards {    
+    .card-wrapper {
+        display: flex;
+        .description{
+            text-align: left;
+            .stack{
+                font-weight: 500;
+            }
+            p{
+                margin: 0;
+                padding: 0 5px;
+            }
+        }
+        img {
+            margin-left: auto;
+            margin-right: auto;
+            width: 500px;
+            height: 500px;
+        }
+    }
+}
+
+.react-tabs {
+    width: 100%;
+}

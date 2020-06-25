@@ -1,24 +1,4 @@
-.profile-picture{
-    width: 250px;
-    height: 250px;
-    border-radius: 30%;
-    object-fit: cover;
-    object-position: center right;
-}
-
-.container .about-me{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.container .about-me p{
-    text-align: center;
-    width: 60%;
-}
-.profile-header{
-    margin-bottom: 50px;
-}
-
+/* No CSS *//*# sourceMappingURL=about.css.map */
 
 .stars span{
     float: right;

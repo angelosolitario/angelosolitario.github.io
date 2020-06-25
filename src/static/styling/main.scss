@@ -1,0 +1,24 @@
+.profile-picture{
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    object-fit: cover;
+    object-position: center right;
+}
+
+.container {
+    overflow: hidden;
+    background-color:rgb(247, 249, 252);
+    height: 100%;
+    .about-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p{
+            text-align: center;
+            width: 60%;
+        }
+    }
+}
+
