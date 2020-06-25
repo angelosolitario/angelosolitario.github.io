@@ -1,9 +1,9 @@
 import React from "react";
-import Card from "./Card";
 import projects from "./projects-data";
-import "../static/styling/projects.css";
+import "../../static/styling/projects.css";
 
 const Projects = () => {
+    // moveLeft and moveRight are for goign through the slideshow
     const moveLeft = () => {};
 
     const moveRight = () => {};

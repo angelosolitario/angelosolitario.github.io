@@ -1,5 +1,5 @@
-import HomePage from "../static/img/home-page-gatorstore.png";
-import TodoPage from "../static/img/todo-list.gif";
+import HomePage from "../../static/img/home-page-gatorstore.png";
+import TodoPage from "../../static/img/todo-list.gif";
 const projects = [
     {
         image: HomePage,

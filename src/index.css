@@ -2,11 +2,10 @@
 html,body{
   height: 100%;
   width: 100%;
-  background-color: lightgreen;
-
+  background-image: linear-gradient(to top right, #393b37, #db3823, #305058);
+  background-attachment: fixed;
 }
 #root{
-  background-color: lightgreen;
   margin: 0 auto;
   height: 100%;
 }
