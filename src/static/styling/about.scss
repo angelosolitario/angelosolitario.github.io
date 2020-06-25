@@ -1,5 +1,17 @@
 .education{
-    .h5{
-        float:left
+    text-align: left;
+
+    h1{
+        text-align: center;
+    }
+    
+    p{
+        font-weight: 500;
+    }
+}
+
+@media screen and (max-width: 320px){
+    body{
+        font-size: 10px;
     }
 }

@@ -19,11 +19,17 @@
     margin-bottom: 50px;
 }
 
-/* for general tabbing */
+
+.stars span{
+    float: right;
+    margin-right: 30%; 
+}
+.stars p{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
 .tab{
-    display:inline-block; 
-    font-weight: 500;
-    margin-left: 40px; 
+    margin-left: 40px;
 }
 
 
@@ -33,6 +39,11 @@
 }
 .education h1, .skills h1{
     text-align: center;
+}
+
+.education p{
+    font-weight: 500;
+
 }
 
 .date{
