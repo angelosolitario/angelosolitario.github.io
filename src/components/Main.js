@@ -7,7 +7,6 @@ import {
     faLinkedin,
     faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.scss";
 import Particles from "react-particles-js";
 
@@ -16,11 +15,6 @@ import Resume from "./Resume";
 import Projects from "./Projects/Projects";
 
 const Main = () => {
-    const [value, setValue] = React.useState(0);
-
-    const handleChange = (event, newTab) => {
-        setValue(newTab);
-    };
 
     return (
         <div className="container">
@@ -60,27 +54,33 @@ const Main = () => {
             </a>
 
             <h1>ANGELO SOLITARIO</h1>
-            
-            <Tabs>
-                <TabList>
-                    <Tab>About Me</Tab>
-                    <Tab>Projects</Tab>
-                    <Tab>Resume</Tab>
-                </TabList>
+            <Particles id = "particles"
+                params={{
+                    "particles": {
+                        "number": {
+                            "value": 200,
+                            "density":{
+                                enable: true,
+                                value_area: 5000,
+                            }
+                        },
+                        "size": {
+                            "value": 10
 
-                <TabPanel>
-                    <About />
-                </TabPanel>
-
-                <TabPanel>
-                    <Projects />
-                </TabPanel>
-
-                <TabPanel>
-                    <Resume />
-                </TabPanel>
-            </Tabs>
-
+                        }
+                    },
+                    "interactivity": {
+                        "events": {
+                            "onhover": {
+                                "enable": true,
+                                "mode": "bubble"
+                            }
+                        }
+                    }
+                }} 
+            />
+            <About />
+            <Projects />
         </div>
     );
 };

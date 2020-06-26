@@ -12,7 +12,6 @@ const Projects = () => {
         <div className="cards">
             {projects.map((proj) => (
                 <div className="card-wrapper">
-                    {/* <p>{page}</p> */}
                     <img src={proj.image} alt="" />
                     <div className="description">
                         <p>{proj.desc}</p>
