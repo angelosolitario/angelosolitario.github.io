@@ -1,24 +1,41 @@
-.cards {
-    width: 100%;
-    height: 100%;
+
+.projects-container{
     background-color: white;
-    .card-wrapper {
+    .cards {
+        height: 100%;
         display: flex;
-        .description{
-            text-align: left;
-            .stack{
-                font-weight: 500;
+        align-items: center;
+        justify-content: center;
+        flex: 1;
+        .card-wrapper {
+            display: flex;
+            margin: 5px;
+            padding: 10px;
+            border: solid 2px black;
+    
+    
+            .description{
+                text-align: left;
+    
+    
+                .stack{
+                    font-weight: 500;
+                }
+    
+    
+                p{
+                    margin: 20px;
+                    padding: 0 5px;
+                }
             }
-            p{
-                margin: 0;
-                padding: 0 5px;
+    
+    
+            img {
+                width: 500px;
+                height: 500px;
             }
-        }
-        img {
-            margin-left: auto;
-            margin-right: auto;
-            width: 500px;
-            height: 500px;
+    
         }
     }
+    
 }

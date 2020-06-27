@@ -1,4 +1,9 @@
 /* No CSS *//*# sourceMappingURL=about.css.map */
+.container{
+    background-color:white;
+    margin-bottom: 50px;
+}
+
 
 .stars span{
     float: right;

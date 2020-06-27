@@ -8,13 +8,12 @@
      object-position: center right;
 }
 
-.container {
+.main-container {
   overflow: hidden;
-  background-color: #f7f9fc;
   height: 100%;
 }
 
-.container .about-me {
+.main-container .about-me {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -26,8 +25,12 @@
           align-items: center;
 }
 
-.container .about-me p {
+.main-container .about-me p {
   text-align: center;
   width: 60%;
+}
+
+.main-container #social-media {
+  z-index: 10;
 }
 /*# sourceMappingURL=main.css.map */

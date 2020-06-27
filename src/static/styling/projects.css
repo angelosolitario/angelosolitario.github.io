@@ -1,30 +1,47 @@
-.cards .card-wrapper {
+.projects-container {
+  background-color: white;
+}
+
+.projects-container .cards {
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
 }
 
-.cards .card-wrapper .description {
+.projects-container .cards .card-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 5px;
+  padding: 10px;
+  border: solid 2px black;
+}
+
+.projects-container .cards .card-wrapper .description {
   text-align: left;
 }
 
-.cards .card-wrapper .description .stack {
+.projects-container .cards .card-wrapper .description .stack {
   font-weight: 500;
 }
 
-.cards .card-wrapper .description p {
-  margin: 0;
+.projects-container .cards .card-wrapper .description p {
+  margin: 20px;
   padding: 0 5px;
 }
 
-.cards .card-wrapper img {
-  margin-left: auto;
-  margin-right: auto;
+.projects-container .cards .card-wrapper img {
   width: 500px;
   height: 500px;
-}
-
-.react-tabs {
-  width: 100%;
 }
 /*# sourceMappingURL=projects.css.map */

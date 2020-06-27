@@ -5,7 +5,7 @@ import skills from './skills-data.js'
 const About = () => {
 
     return (
-        <div className="container">
+        <div className="container" id = "main-container">
             <div className="about-me">
                 <p>
                     Hello! My name is Angelo Solitario. I am a recent graduate
