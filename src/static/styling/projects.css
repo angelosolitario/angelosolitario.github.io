@@ -1,5 +1,9 @@
 .projects-container {
-  background-color: white;
+  background-color: #dddbdb;
+  width: 90%;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 10px;
 }
 
 .projects-container .cards {
@@ -13,31 +17,32 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-flex: 1;
-      -ms-flex: 1;
-          flex: 1;
 }
 
 .projects-container .cards .card-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 5px;
-  padding: 10px;
-  border: solid 2px black;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
 }
 
 .projects-container .cards .card-wrapper .description {
-  text-align: left;
+  text-align: center;
+  margin: 10px;
 }
 
 .projects-container .cards .card-wrapper .description .stack {
-  font-weight: 500;
+  font-weight: 800;
 }
 
-.projects-container .cards .card-wrapper .description p {
-  margin: 20px;
-  padding: 0 5px;
+.projects-container .cards .card-wrapper .description .project-title {
+  text-decoration: underline;
 }
 
 .projects-container .cards .card-wrapper img {

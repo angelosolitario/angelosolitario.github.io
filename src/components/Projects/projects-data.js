@@ -4,6 +4,7 @@ const projects = [
     {
         title: "Gator Store",
         image: HomePage,
+        link:"https://gatorstore.duckdns.org/",
         tech: {
             frontend: "HTML, CSS, JavaScript, BootStrap and EJS templates",
             backend: "MySQL, Node.js",
@@ -14,6 +15,7 @@ const projects = [
     {
         title: "Todo List",
         image: TodoPage,
+        link:"https://github.com/angelosolitario/Full-Stack-Todo-List",
         tech: {
             frontend: "HTML, CSS, JavaScript, BootStrap and EJS templates",
             backend: "MongoDB, Node.js",

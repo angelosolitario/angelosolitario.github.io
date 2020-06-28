@@ -1,32 +1,36 @@
 
 .projects-container{
-    background-color: white;
+    background-color: rgb(221, 219, 219);
+    width: 90%;
+    margin: auto;
+    padding: 5px 0;
+    border-radius: 10px;
+
     .cards {
         height: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
-        flex: 1;
         .card-wrapper {
             display: flex;
-            margin: 5px;
-            padding: 10px;
-            border: solid 2px black;
+            align-items: center;
+            justify-content: center;            
+            margin: 20px;
+            // border: solid 1px black;
     
     
             .description{
-                text-align: left;
-    
+                text-align: center;
+                margin: 10px;
     
                 .stack{
-                    font-weight: 500;
+                    font-weight: 800;
                 }
-    
-    
-                p{
-                    margin: 20px;
-                    padding: 0 5px;
+
+                .project-title{
+                    text-decoration: underline;
                 }
+
             }
     
     

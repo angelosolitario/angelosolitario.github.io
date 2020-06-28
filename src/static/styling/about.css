@@ -1,7 +1,17 @@
 /* No CSS *//*# sourceMappingURL=about.css.map */
 .container{
-    background-color:white;
+    background-color: rgb(221, 219, 219);
     margin-bottom: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+.about-me{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
 }
 
 

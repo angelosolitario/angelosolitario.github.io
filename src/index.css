@@ -1,13 +1,10 @@
 
-html,body{
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(to top right, #000000, #b33131, #cec1c1);
-  background-attachment: fixed;
-}
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
 
 body {
-  margin: 100px;
+  background-image: linear-gradient(to top right, #000000, #b33131, #cec1c1);
+  background-attachment: fixed;
+  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

@@ -8,29 +8,13 @@
      object-position: center right;
 }
 
-.main-container {
-  overflow: hidden;
-  height: 100%;
-}
-
-.main-container .about-me {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.main-container .about-me p {
-  text-align: center;
-  width: 60%;
-}
-
 .main-container #social-media {
-  z-index: 10;
+  z-index: 1;
+}
+
+.main-container #particles {
+  position: fixed;
+  height: 100%;
+  width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

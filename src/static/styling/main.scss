@@ -7,20 +7,15 @@
 }
 
 .main-container {
-    overflow: hidden;
-    height: 100%;
-    .about-me{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        p{
-            text-align: center;
-            width: 60%;
-        }
-    }
-
     #social-media{
-        z-index: 10;
+        z-index: 1;
     }
+    
+    #particles {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+    }
+  
 }
 

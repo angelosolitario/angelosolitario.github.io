@@ -13,43 +13,6 @@ import Particles from "react-particles-js";
 const Main = () => {
     return (
         <div className="main-container">
-            <div id="social-media">
-                <a href="https://angelosolitario.github.io/portfolio/">
-                    <img
-                        className="profile-picture"
-                        src={profilepicture}
-                        alt="angelo-solitario"
-                    ></img>
-                </a>
-
-                <br />
-
-                <a
-                    href="https://github.com/angelosolitario"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <FontAwesomeIcon icon={faGithub} size="2x" />
-                </a>
-
-                <a
-                    href="https://linkedin.com/in/angelosolitario"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
-                </a>
-
-                <a
-                    href="https://instagram.com/angelosolitario"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    <FontAwesomeIcon icon={faInstagram} size="2x" />
-                </a>
-            </div>
-
-            <h1>ANGELO SOLITARIO</h1>
             <Particles
                 id="particles"
                 params={{
@@ -74,7 +37,46 @@ const Main = () => {
                         },
                     },
                 }}
+
             />
+            <div id="social-media">
+                <a href="https://angelosolitario.github.io/portfolio/">
+                    <img
+                        className="profile-picture"
+                        src={profilepicture}
+                        alt="angelo-solitario"
+                    ></img>
+                </a>
+
+                <br />
+
+                <a
+                    href="https://github.com/angelosolitario"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    id="github"
+                >
+                    <FontAwesomeIcon icon={faGithub} size="2x" />
+                </a>
+
+                <a
+                    href="https://linkedin.com/in/angelosolitario"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FontAwesomeIcon icon={faLinkedin} size="2x" />
+                </a>
+
+                <a
+                    href="https://instagram.com/angelosolitario"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                </a>
+            </div>
+
+            <h1>ANGELO SOLITARIO</h1>
         </div>
     );
 };

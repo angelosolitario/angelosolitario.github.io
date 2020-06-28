@@ -7,11 +7,12 @@ const Projects = () => {
         <div className = "projects-container">
             <h1>Projects</h1>
 
-            <div className="cards">
+            <div className="row cards">
                 {projects.map((proj) => (
-                    <div className=" col card-wrapper">
+                    <div className=" col-10 col-sm-10 col-md-10 col-lg-10 col-xl-5 card-wrapper">
                         <img src={proj.image} alt="" />
                         <div className="description">
+                            <h1 className = "project-title">{proj.title}</h1>
                             <p>{proj.desc}</p>
                             <p>
                                 <span className="stack">Frontend: </span>{" "}
@@ -21,6 +22,7 @@ const Projects = () => {
                                 <span className="stack">Backend: </span>{" "}
                                 {proj.tech.backend}
                             </p>
+                            <p><a href = {proj.link} target="_blank" rel = "noopener noreferrer"> Check it out! </a> </p>
                         </div>
                     </div>
                 ))}
