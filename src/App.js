@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Main from "./components/Main";
 import About from "./components/About";
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 

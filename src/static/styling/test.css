@@ -1,0 +1,89 @@
+.projects-container {
+  background-color: #dddbdb;
+  margin: auto;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+
+.projects-container h1 {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  color: #45474a;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.projects-container span {
+  border-top: 4px solid;
+  color: #45474a;
+  display: block;
+  margin: 0 auto;
+  width: 70px;
+  margin-bottom: 75px;
+}
+
+@media (min-width: 768px) {
+  .projects-container .containerA {
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .projects-container .rowA {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+.projects-container h2 {
+  font-family: "Manjari", sans-serif;
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #f6f6f6;
+  color: #45474a;
+}
+
+.projects-container .colA {
+  background-color: white;
+  margin-bottom: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .projects-container .colA {
+    margin: 0 10px;
+    margin-bottom: 35px;
+  }
+}
+
+.projects-container .colA .image-container {
+  position: relative;
+}
+
+.projects-container .colA .image-container .thumbnail {
+  width: 500px;
+  height: 500px;
+  border-bottom: 1px #e8e8e8 solid;
+}
+
+.projects-container .colA p {
+  margin: 0;
+  padding: 0;
+  padding: 10px;
+  font-family: "Manjari", sans-serif;
+  font-size: 18px;
+  color: #45474a;
+}
+/*# sourceMappingURL=test.css.map */
