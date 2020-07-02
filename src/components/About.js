@@ -7,6 +7,7 @@ const About = () => {
     return (
         <div className="container" id = "main-container">
             <div className="about-me">
+                <h1>About</h1>
                 <p>
                     Hello! My name is Angelo Solitario. I am a recent graduate
                     of Computer Science from San Francisco State University. I
