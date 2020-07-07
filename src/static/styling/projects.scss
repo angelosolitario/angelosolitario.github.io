@@ -3,43 +3,48 @@
     margin: auto;
     padding: 5px 0;
     border-radius: 10px;
-    p{
+    p {
         margin: 0;
         padding: 0;
         text-align: left;
     }
 
-    .projects{
+    .projects {
         @media (min-height: 768px) {
             display: flex;
         }
+
+        @media (max-width: 768px) {
+            -ms-flex: 0 0 83.333333%;
+            flex: 0 0 83.333333%;
+            max-width: 83.333333%;
+        }
     }
 
-    h1,h2{
+    h1,
+    h2 {
         text-decoration: underline;
     }
     .row {
         @media (min-width: 768px) {
             display: flex;
         }
-    
     }
-    
+
     .contain {
         @media (min-width: 768px) {
             margin: 0 auto;
         }
-    
+        .row {
+            width: 100%;
+        }
     }
 
-
     .col {
-        @media(min-width:768px){
-            margin: 0 10px;
+        @media (min-width: 768px) {
+            margin: 0 5px;
             margin-bottom: 35px;
         }
-       
-
 
         .image-container {
             position: relative;
@@ -51,6 +56,4 @@
             }
         }
     }
-
-
 }

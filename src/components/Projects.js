@@ -1,5 +1,4 @@
 import React from "react";
-import projects from "./projects-data";
 
 import HomePage from "../static/img/home-page-gatorstore.png";
 import TodoPage from "../static/img/todo-list.gif";
@@ -10,7 +9,7 @@ import "../static/styling/projects.css";
 
 const Projects = () => {
     return (
-        <div className="projects-container">
+        <div className=" projects-container">
             <h1>Projects</h1>
 
             <div className="contain">
@@ -19,7 +18,7 @@ const Projects = () => {
                     <div className="col projects">
                         <div className="col image-container">
                             <img
-                                className="image"
+                                className="image image-fluid"
                                 src={HomePage}
                                 alt="Gator Store"
                             />
@@ -28,8 +27,8 @@ const Projects = () => {
                         <div className="col">
                             <h2>Gator Store</h2>
                             <p>
-                                Gator Store is a buy/sell website dedicated
-                                for San Francisco State University students.
+                                Gator Store is a buy/sell website dedicated for
+                                San Francisco State University students.
                             </p>
                             <p>
                                 <strong>Frontend: </strong> HTML, CSS,
@@ -137,7 +136,8 @@ const Projects = () => {
                         <div className="col">
                             <h2>Multiplayer Tank Game</h2>
                             <p>
-                                This game is a Multiplayer Tank Game using Java and Java GUI with fully controllable tanks.
+                                This game is a Multiplayer Tank Game using Java
+                                and Java GUI with fully controllable tanks.
                             </p>
                             <p>
                                 <a

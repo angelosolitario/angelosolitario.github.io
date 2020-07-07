@@ -19,7 +19,17 @@
   }
 }
 
-.projects-container h1, .projects-container h2 {
+@media (max-width: 768px) {
+  .projects-container .projects {
+    -ms-flex: 0 0 83.333333%;
+    -webkit-box-flex: 0;
+            flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+  }
+}
+
+.projects-container h1,
+.projects-container h2 {
   text-decoration: underline;
 }
 
@@ -37,9 +47,13 @@
   }
 }
 
+.projects-container .contain .row {
+  width: 100%;
+}
+
 @media (min-width: 768px) {
   .projects-container .col {
-    margin: 0 10px;
+    margin: 0 5px;
     margin-bottom: 35px;
   }
 }

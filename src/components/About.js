@@ -1,11 +1,10 @@
 import React from "react";
 import "../static/styling/about.css";
 import StarRatings from "react-star-ratings";
-import skills from './skills-data.js'
+import skills from "./skills-data.js";
 const About = () => {
-
     return (
-        <div className="container" id = "main-container">
+        <div className="container" id="main-container">
             <div className="about-me">
                 <h1>About</h1>
                 <p>
@@ -20,15 +19,15 @@ const About = () => {
                 <div className="col education">
                     <h1>Education</h1>
                     {/*This will be the education part */}
-                    <h4>San Francisco State University</h4>
+                    <h3>San Francisco State University</h3>
                     <p className="tab">
-                        Bachelor of Science in Computer Science{" "}
+                        <strong>Bachelor of Science in Computer Science</strong>  
                         <span className="date">Aug 2017 - Dec 2019</span>
                     </p>
 
-                    <h4>Skyline College</h4>
+                    <h3>Skyline College</h3>
                     <p className="tab">
-                        Transfer Program{" "}
+                        <strong>Transfer Program</strong>  
                         <span className="date">Aug 2014 - May 2017</span>
                     </p>
                 </div>
@@ -36,7 +35,7 @@ const About = () => {
                 <div className="col skills">
                     <h1>Skills</h1>
 
-                    <h5>Languages</h5>
+                    <h3>Languages</h3>
                     <ul>
                         {skills.languages.map((lang) => (
                             <div className="stars">
@@ -57,7 +56,7 @@ const About = () => {
                         ))}
                     </ul>
                     <br />
-                    <h5>Technologies</h5>
+                    <h3>Technologies</h3>
                     <ul>
                         {skills.technologies.map((tech) => (
                             <div className="stars">
