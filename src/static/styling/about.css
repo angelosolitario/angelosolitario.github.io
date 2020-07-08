@@ -5,10 +5,14 @@
     border-radius: 10px;
     font-size: 21px;
 }
-
-#about {
-    height: 100vh;
+@media (max-width: 600px) {
+    .education,.skills {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
 }
+
 #about .row {
     width: 100%;
 }
