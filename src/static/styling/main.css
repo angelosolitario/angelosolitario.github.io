@@ -8,6 +8,72 @@
      object-position: center right;
 }
 
+.main-container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main-container .tabs {
+  border: black 1px solid;
+}
+
+.main-container a, .main-container a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main-container button {
+  background: none;
+  color: black;
+  border: none;
+  position: relative;
+  height: 60px;
+  font-size: 1.6em;
+  padding: 0 2em;
+  cursor: pointer;
+  -webkit-transition: 500ms ease all;
+  transition: 500ms ease all;
+  outline: none;
+}
+
+.main-container button:hover {
+  background: none;
+  color: #000000 171, 138;
+}
+
+.main-container button:before, .main-container button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 2px;
+  width: 0;
+  background: #000000;
+  -webkit-transition: 500ms ease all;
+  transition: 500ms ease all;
+}
+
+.main-container button:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+
+.main-container button:hover:before, .main-container button:hover:after {
+  width: 100%;
+  -webkit-transition: 500ms ease all;
+  transition: 500ms ease all;
+}
+
 .main-container #social-media {
   z-index: 1;
 }

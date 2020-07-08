@@ -9,7 +9,7 @@ import "../static/styling/projects.css";
 
 const Projects = () => {
     return (
-        <div className=" projects-container">
+        <div id="projects" className="projects-container">
             <h1>Projects</h1>
 
             <div className="contain">

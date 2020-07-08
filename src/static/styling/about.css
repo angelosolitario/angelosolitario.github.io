@@ -1,63 +1,75 @@
-/* No CSS *//*# sourceMappingURL=about.css.map */
-.container{
+/* No CSS */ /*# sourceMappingURL=about.css.map */
+.container {
     background-color: rgb(221, 219, 219);
     margin-bottom: 50px;
     border-radius: 10px;
-    font-size: 20px;
-
+    font-size: 21px;
 }
 
-.about-me{
+#about {
+    height: 100vh;
+}
+#about .row {
+    width: 100%;
+}
+
+#about .contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 90%;
+}
+
+.about-me {
     text-align: center;
     width: 50%;
     margin: auto;
 }
 
-.about-me h1{
+.about-me h1 {
     text-decoration: underline;
 }
 
-
-.stars span{
+.stars span {
     float: right;
-    margin-right: 30%; 
+    margin-right: 20%;
 }
-.stars p{
+.stars p {
     font-weight: 600;
     margin-bottom: 5px;
 }
-.tab{
-    margin-left: 40px;
+.tab {
+    margin-left: 30px;
 }
-
 
 /* education part to line up the text */
-.education{
+.education {
     text-align: left;
 }
-.education h1, .skills h1{
+.education h1,
+.skills h1 {
     text-align: center;
-
 }
-.education h3{
+.education h3 {
     font-weight: 600;
 }
 
-
-.date{
+.date {
     font-weight: 100;
     font-style: italic;
     margin-left: 10px;
 }
 
-.skills{
+.skills {
     text-align: left;
 }
 
-.skills ul li{
+.skills ul li {
     list-style: none;
 }
 
-.stars{
+.stars {
     align-items: center;
 }

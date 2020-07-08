@@ -37,7 +37,6 @@ const Main = () => {
                         },
                     },
                 }}
-
             />
             <div id="social-media">
                 <a href="https://angelosolitario.github.io/portfolio/">
@@ -74,9 +73,12 @@ const Main = () => {
                 >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
+                <h1>ANGELO SOLITARIO</h1>
+                <div className="tabs">
+                    <button><a href="#about" >About</a></button>
+                    <button><a href="#projects">Projects</a></button>
+                </div>
             </div>
-
-            <h1>ANGELO SOLITARIO</h1>
         </div>
     );
 };
