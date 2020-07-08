@@ -17,7 +17,7 @@ const About = () => {
                 </div>
 
                 <div className="row">
-                    <div className="col col-sm-12 col-xl-6 education">
+                    <div id = "education" className="col col-sm-12 col-xl-6">
                         <h1>Education</h1>
                         {/*This will be the education part */}
                         <h3>San Francisco State University</h3>
@@ -36,7 +36,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="col col-sm-12 col-xl-6 skills">
+                    <div id = "skills" className="col col-sm-12 col-xl-6">
                         <h1>Skills</h1>
 
                         <h3>Languages</h3>
