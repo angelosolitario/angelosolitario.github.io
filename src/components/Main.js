@@ -2,6 +2,7 @@ import React from "react";
 import "../static/styling/main.css";
 import profilepicture from "../static/img/profilepicture.JPG";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import pdf from "../static/pdf/angelosolitarioresume.pdf";
 import {
     faGithub,
     faLinkedin,
@@ -77,6 +78,7 @@ const Main = () => {
                 <div className="tabs">
                     <button><a href="#about" >About</a></button>
                     <button><a href="#projects">Projects</a></button>
+                    <button><a href={pdf} target = "_blank" rel="noopener noreferrer">Resumé</a></button>
                 </div>
             </div>
         </div>
