@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.b05a2645.chunk.css",
-    "main.js": "/portfolio/static/js/main.a055fbaf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a055fbaf.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1469216d.chunk.css",
+    "main.js": "/portfolio/static/js/main.8b9c652e.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.8b9c652e.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.a4c0ad0d.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.a4c0ad0d.js.map",
     "static/css/2.546755be.chunk.css": "/portfolio/static/css/2.546755be.chunk.css",
-    "static/js/2.53c99de5.chunk.js": "/portfolio/static/js/2.53c99de5.chunk.js",
-    "static/js/2.53c99de5.chunk.js.map": "/portfolio/static/js/2.53c99de5.chunk.js.map",
+    "static/js/2.a06638a0.chunk.js": "/portfolio/static/js/2.a06638a0.chunk.js",
+    "static/js/2.a06638a0.chunk.js.map": "/portfolio/static/js/2.a06638a0.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.42bd7103e194e9261b709ab6ee976185.js": "/portfolio/precache-manifest.42bd7103e194e9261b709ab6ee976185.js",
+    "precache-manifest.bd3ba0a0357f56f4b42ad48606f3e0cf.js": "/portfolio/precache-manifest.bd3ba0a0357f56f4b42ad48606f3e0cf.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.546755be.chunk.css.map": "/portfolio/static/css/2.546755be.chunk.css.map",
-    "static/css/main.b05a2645.chunk.css.map": "/portfolio/static/css/main.b05a2645.chunk.css.map",
-    "static/js/2.53c99de5.chunk.js.LICENSE": "/portfolio/static/js/2.53c99de5.chunk.js.LICENSE",
+    "static/css/main.1469216d.chunk.css.map": "/portfolio/static/css/main.1469216d.chunk.css.map",
+    "static/js/2.a06638a0.chunk.js.LICENSE": "/portfolio/static/js/2.a06638a0.chunk.js.LICENSE",
+    "static/media/angelosolitarioresume.pdf": "/portfolio/static/media/angelosolitarioresume.46b4e85c.pdf",
     "static/media/home-page-gatorstore.png": "/portfolio/static/media/home-page-gatorstore.cc250368.png",
     "static/media/note-taking-app.png": "/portfolio/static/media/note-taking-app.9219c6aa.png",
     "static/media/profilepicture.JPG": "/portfolio/static/media/profilepicture.1d7587c5.JPG",
@@ -23,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.a4c0ad0d.js",
     "static/css/2.546755be.chunk.css",
-    "static/js/2.53c99de5.chunk.js",
-    "static/css/main.b05a2645.chunk.css",
-    "static/js/main.a055fbaf.chunk.js"
+    "static/js/2.a06638a0.chunk.js",
+    "static/css/main.1469216d.chunk.css",
+    "static/js/main.8b9c652e.chunk.js"
   ]
 }
