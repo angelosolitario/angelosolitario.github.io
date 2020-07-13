@@ -23,6 +23,7 @@
     text-align: center;
     width: 50%;
     margin: auto;
+
 }
 
 .about-me h1 {
@@ -75,5 +76,11 @@
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-me{
+      width: 100%;
     }
 }

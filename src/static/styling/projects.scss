@@ -5,32 +5,30 @@
     border-radius: 10px;
     font-size: 20px;
 
+    h1,
+    h2 {
+        text-decoration: underline;
+    }
+
     p {
         margin: 0;
         padding: 0;
         text-align: left;
     }
 
-    .projects {
-        @media (min-height: 768px) {
-            display: flex;
-        }
-
+    .projects {   
         @media (max-width: 768px) {
             -ms-flex: 0 0 83.333333%;
             flex: 0 0 83.333333%;
             max-width: 83.333333%;
+            margin-bottom: 35px;
         }
-      
     }
 
-    h1,
-    h2 {
-        text-decoration: underline;
-    }
     .row {
         @media (min-width: 768px) {
             display: flex;
+
         }
     }
 
@@ -41,26 +39,32 @@
         justify-content: center;
 
         @media (min-width: 768px) {
+            display: flex;
             margin: 0 auto;
-        }
-        .row {
-            width: 100%;
         }
     }
 
     .col {
+        background-color: #f6f6f6;
+        border-radius: 30px;
+        max-width: 800px; 
         @media (min-width: 768px) {
             margin: 0 5px;
             margin-bottom: 35px;
         }
+        margin: auto;
+        margin-bottom: 35px;
+
 
         .image-container {
             position: relative;
 
             .image {
+                max-height: 500px;
                 width: 100%;
                 height: 100%;
             }
         }
     }
+
 }
