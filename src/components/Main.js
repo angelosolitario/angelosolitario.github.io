@@ -74,7 +74,7 @@ const Main = () => {
                 >
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
-                <h1>ANGELO SOLITARIO</h1>
+                <h1 id="profile-name">ANGELO SOLITARIO</h1>
                 <div className="tabs">
                     <button><a href="#about" >About</a></button>
                     <button><a href="#projects">Projects</a></button>

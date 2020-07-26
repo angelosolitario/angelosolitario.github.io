@@ -21,10 +21,6 @@
           align-items: center;
 }
 
-.main-container .tabs {
-  border: black 1px solid;
-}
-
 .main-container a, .main-container a:hover {
   text-decoration: none;
   color: inherit;
@@ -76,6 +72,10 @@
 
 .main-container #social-media {
   z-index: 1;
+}
+
+.main-container #social-media #profile-name {
+  color: white;
 }
 
 .main-container #particles {
