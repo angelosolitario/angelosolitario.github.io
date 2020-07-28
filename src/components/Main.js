@@ -19,21 +19,21 @@ const Main = () => {
                 params={{
                     particles: {
                         number: {
-                            value: 200,
+                            value: 100,
                             density: {
                                 enable: true,
                                 value_area: 5000,
                             },
                         },
                         size: {
-                            value: 10,
+                            value: 7,
                         },
                     },
                     interactivity: {
                         events: {
                             onhover: {
                                 enable: true,
-                                mode: "repulse",
+                                mode: ["grab","repulse"]
                             },
                         },
                     },
